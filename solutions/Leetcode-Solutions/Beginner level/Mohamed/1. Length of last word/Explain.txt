@@ -1,0 +1,3 @@
+For me this problem was straight forward and divided into 2 pieces
+1. get the last word after space and this solved from this line s.split()[-1]
+2. get the length of this word.
