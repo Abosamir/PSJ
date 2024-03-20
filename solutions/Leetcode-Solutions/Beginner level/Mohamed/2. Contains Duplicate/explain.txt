@@ -1,0 +1,2 @@
+for me every time i see problem talk about comparison between duplicate and not duplicate datastructure i always try to involve the concept of "set" data structure in it
+you know that set datastructure contains only the unique characters so based on this information i solved the problem.

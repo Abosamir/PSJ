@@ -1,0 +1,5 @@
+this problem first i thougt to solve it with binary search but binary search alogrithm needs a sorted list
+then i thougt to order the list, but i need to reverse the order of the list as i will return this order.
+
+so, i came up with track the subtraction of both the target and the value i stand on in the list.
+having the option to return the index of the target output in any order give me the chance to first move along the whole list and then find the two indices that i want.

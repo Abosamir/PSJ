@@ -1,0 +1,4 @@
+this problem took time with me because my approach i took was to make new list and put the numbers that not equal to the val in the new list
+but after realize this i got this solution. 
+the key in this code is this line "indices_to_remove.reverse()" if you didn't reverse the list you will get out of index error
+removing the element that has higher index first will not cause problem at all, however if you removed the lower index first the size of the list will shrink and the high index will not be catched.
