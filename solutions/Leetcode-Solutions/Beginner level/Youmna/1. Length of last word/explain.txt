@@ -1,0 +1,1 @@
+I have a sentance with space in start so use `strip` to striped spaces then `split` to splited it based on the spaces then reture the length last word using `len(s[-1])` 

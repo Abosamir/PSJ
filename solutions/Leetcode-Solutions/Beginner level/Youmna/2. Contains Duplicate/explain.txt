@@ -1,0 +1,1 @@
+Uisng `set` function to removed duplicates in list nums then compare between the list with set and without it if it's same return `False`
