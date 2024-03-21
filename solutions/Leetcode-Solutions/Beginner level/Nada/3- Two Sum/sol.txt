@@ -1,0 +1,5 @@
+1- i Used enumerate function to return index and value of each element in the list .
+2- I made another enumerate function 
+3- Made sure that the index are not the same .
+4- Adds the values from the two enumerates .
+5- If they are equal to the target the indices of them are returned .
