@@ -1,0 +1,3 @@
+this problem took me time to solve it because there was some corner cases that my code didn't handle.
+the solution is straight forward whatever the index you at in the list sum all the previous and the next 
+but there is a better solution i found in this video check it. "https://www.youtube.com/watch?v=u89i60lYx8U"
