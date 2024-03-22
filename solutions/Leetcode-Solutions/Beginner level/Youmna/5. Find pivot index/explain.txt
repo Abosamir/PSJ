@@ -1,0 +1,5 @@
+1-I got the sum of the left side 
+2- I used for loop to iterate over all the elements .
+3- Removes the element from the list using its index and the left list from the total and returns it in the right_list variable .
+4-return the index if it matches the condition else the value of the index in nums is added to the left_list .
+if nothing matched the condition -1 is returned.
