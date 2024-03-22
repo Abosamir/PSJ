@@ -1,0 +1,3 @@
+it's a rule in my mind, once you want a distict numbers or element i always try to involve the concept of the "Set" datastructure in the problem
+one of the methods in the set is the "difference" where you find the element in a set that is not in the other set
+i also got amazed that this solution has the best runtime.

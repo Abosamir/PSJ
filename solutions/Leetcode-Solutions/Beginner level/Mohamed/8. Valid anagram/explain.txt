@@ -1,0 +1,9 @@
+this problem is confusing in the beginning because the description of the problem.
+the two words have valid anagram if they have two things
+    1. the same letters
+    2. the same occurance of each letters
+
+the solution i made is to make a dictionary that its key is the letter and the value is the number of occurance of this letter.
+and if the two dict are equal then they have a valid anagram
+hint: i made a function for this because i don't want to copy the code for the two strings.
+

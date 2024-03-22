@@ -1,0 +1,6 @@
+for me this problem should have a base to start from which is the first two rows so that's why i made an if-condition on them
+my solution starts from if the number of rows is more than two. and for me each row contain of two this
+    1. one on the begining [1] and one and the end [1]
+    2. numbers that based on the previous row
+to get the numbers that based on the previous row, i made a two pointers that moving step by step and for each step the result number will be append to an empty list i created
+so at the end you will find this [1] + [numbers we got from the operation on the previous row]+ [1]

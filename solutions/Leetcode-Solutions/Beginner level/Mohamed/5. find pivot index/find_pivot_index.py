@@ -16,7 +16,3 @@ def pivotIndex(self, nums: list[int]) -> int:
             return i-1
         
     return -1
-
-
-
-print(pivotIndex("f",[1,2,3]))
