@@ -1,0 +1,4 @@
+1- I measured the length of the list .
+2-then made a while loop on the list to check if the val is included or not .
+3- If it is included it is removed 
+4- then the length is returned.
