@@ -1,0 +1,4 @@
+1- I have a sentence containing spaces so i stripped the spaces at the beginning
+2- Then splitted it based on the spaces 
+3- Reached to the last  word 
+4- Returned its length.

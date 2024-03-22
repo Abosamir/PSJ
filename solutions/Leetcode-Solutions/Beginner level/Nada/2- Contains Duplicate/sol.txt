@@ -1,0 +1,4 @@
+1- I removed the duplicates from nums list using set function.
+2- Checked whether the length is still the same or not.
+3- If the length is the same this means that there is no duplicates and returned False
+4- Else returned True
