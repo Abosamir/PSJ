@@ -1,0 +1,4 @@
+I want remove the val in nums list 
+1. I using `remove` function on nums 
+2. then I want to check all element in list ,its in list or not 
+Note that : if + for = while 
