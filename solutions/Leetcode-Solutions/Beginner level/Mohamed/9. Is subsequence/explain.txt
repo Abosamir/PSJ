@@ -1,0 +1,4 @@
+this problem is based on tracking the sequence in both words, but the importance came to the short string "s".
+there are two pointers one to target string "s" and another to target string "t". the pointer of s will not move until i find a match in the other string "t"
+once i coverd the whole string "s" i am now have a pointer "i" that has a value equal to the length of the string "s"
+if i moved through all the letters in string "t" and the condition "j<len(t)" became false then the output will depend on the value of if

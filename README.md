@@ -30,6 +30,12 @@ because it will not only give you the code that solve the problem but it also wi
  - [Leetcode-Solutions](https://github.com/nermeenwageh10/Leetcode-Solutions)
 
 
+## Table of Study
+
+| Source             | Days                       |
+| ----------------- | --------------------------|
+| **grokking algorithms** + **30 minutes of PS** | Saturday - Monday - Wednesday |
+| **1H of Leetcode-Solutions** | Sunday - Tuesday - Thursday - Friday|
 
 ## Helpful tool
 
