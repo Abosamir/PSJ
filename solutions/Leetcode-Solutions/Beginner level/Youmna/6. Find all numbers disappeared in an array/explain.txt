@@ -1,0 +1,6 @@
+1. Iterates through nums: It examines each number (num) in the list.
+2. Takes absolute value: It calculates abs_num = abs(num) to handle both positive and negative numbers (use caution with negative indices).
+3. Checks valid index range: It verifies if abs_num falls within the list's valid index bounds using 1 <= abs_num <= len(nums).
+4. Negates element at calculated index: If the index is valid, it attempts to negate the absolute value of the element at index = abs_num - 1 within nums to mark its presence.
+5. Creates list of missing numbers: It uses a list comprehension to identify indices of remaining positive elements in nums (implying those numbers weren't encountered and negated).
+6. Increments indices and returns: It returns the list of missing numbers by incrementing the found indices by 1 to represent their actual values.
