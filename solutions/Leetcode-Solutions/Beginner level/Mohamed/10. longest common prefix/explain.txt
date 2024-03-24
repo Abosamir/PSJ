@@ -1,0 +1,3 @@
+the file "sol" is based on the first solution that i uploaded to leet code but i notice there is some weakness in my code although it got accepted.
+my solution based on treat the first word as the whole prefix and by comparing with the other words in the list, we will modifiy the prefix string.
+"sol2" is better and solving the problems i noticed in my code
