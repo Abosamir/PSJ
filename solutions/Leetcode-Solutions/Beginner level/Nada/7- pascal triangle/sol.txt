@@ -1,0 +1,19 @@
+This Python code defines a class `Solution` with a method `generate` that generates Pascal's triangle up to a specified number of rows (`numRows`). Let's break down the code step by step:
+
+1. `res = [[1]]`: Initialize the result list `res` with the first row of Pascal's triangle, which is `[1]`. This represents the triangle with one row.
+
+2. `for i in range(numRows - 1):`: Iterate from the second row up to the `numRows` specified. We subtract 1 because the first row is already initialized.
+
+3. `temp = [0] + res[-1] + [0]`: Create a temporary list `temp` which represents the row to be calculated. It adds a `0` at the beginning and end of the previous row (`res[-1]`), effectively padding it with zeros to facilitate the calculation of the next row.
+
+4. `row = []`: Initialize an empty list `row` which will represent the newly calculated row.
+
+5. `for j in range(len(res[-1]) +1):`: Iterate over the elements of the previous row plus one extra element (to ensure that the length of the new row is correct).
+
+6. `row.append(temp[j] + temp[j + 1])`: Calculate each element of the new row by summing adjacent elements from the temporary list `temp` and append it to the `row` list.
+
+7. `res.append(row)`: After calculating all elements of the new row, append it to the result list `res`.
+
+8. Finally, return the generated Pascal's triangle `res`.
+
+This algorithm efficiently constructs Pascal's triangle row by row, utilizing the previously calculated row to compute the next one.

@@ -1,0 +1,3 @@
+1. Initially, I verify the lengths. If they are unequal, it's conclusive that the strings differ, thus returning false.
+2. I created dictionaries for both strings 's' and 't', recording the value and frequency of each character.
+3. Subsequently, I compare the dictionaries to ascertain their equality.
