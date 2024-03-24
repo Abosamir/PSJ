@@ -1,0 +1,3 @@
+We have 2 bool --> 1)`False` --> if length not same
+       		     	   --> if the char not same -> make letter in `s` 				as refrence and compare `t` with it 
+               --> 2) `True` if everything true 

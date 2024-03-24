@@ -1,0 +1,5 @@
+1. intial an empty 2-d array -> pascal
+2. interation from row =0 -> row = n 
+3. intial a temporary empty 1-d array -> tria
+4. interation from column =0 -> column = n
+5. Value of number at the position. If first or last element of that row, assign the value as 1. For the remaining elements, the value would be determined by summing the two corresponding indexes from the previous row .
