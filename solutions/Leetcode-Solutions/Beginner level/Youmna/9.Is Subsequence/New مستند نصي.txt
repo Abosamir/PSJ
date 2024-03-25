@@ -1,0 +1,14 @@
+### Sol_1
+    1. Initialize a variable i to 0.
+    2. Use a for loop to iterate through each character x in the t string.
+    3. For each character x, check if it is equal to the current character s[i] in the s string.
+    4. If the characters are equal, increment the i variable by 1, and check if the value of i is equal to the length of the s string.
+    6. If the value of i is equal to the length of the s string, return True to indicate that the s string is a sub-sequence of the t string.
+    7. If the function iterates through the entire t string and does not find a match for all characters in the s string, return False.
+------------------------------------------------------------------------
+### sol_2
+The function first creates an iterator iterator for the t string, using the iter function. This iterator will be used to iterate through the characters of the t string.
+
+Next, the function uses the all function to check if all characters in the s string are in the iterator of the t string. The all function takes a single argument, which is an iterable, and returns True if all elements of the iterable are true, and False if any of them are false.
+
+The all function in this case is used in a generator expression, which is a way to create a generator that iterates through the characters of the s string. For each character char in the s string, the generator checks if the character is in the iterator of the t string. The all function returns True if all characters are in the iterator of the t string, and False if any of the characters are not.
