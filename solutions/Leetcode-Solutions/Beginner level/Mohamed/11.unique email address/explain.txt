@@ -1,0 +1,5 @@
+this problem in my opinion is so easy if you understand what symbols he talked about in the problem are doing
+the symbols for my has 3 categories based on its importance
+    1. "@" most important one because you will divide the email into local name and domain name
+    2. "+" 2nd most important because it will tell you the part of the local name that you will keep
+    3. "." 3rd most important because once you accessed the result of the previous two symbols have done, you now can replace the dots with empty string
