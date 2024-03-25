@@ -1,0 +1,9 @@
+Explanation:
+
+Two Pointers: The code uses two pointers, i for s and j for t.
+Iterative Approach: The while loop iterates as long as both i and j haven't reached the end of their respective strings.
+Character Matching & Increment: Inside the loop:
+If the characters at s[i] and t[j] match, i is incremented to move on to the next character in s.
+j is always incremented to traverse the entire t string.
+Return Condition: The function returns True if i reaches the end of s (all characters found), indicating s is a subsequence of t. Otherwise, it returns False.
+This improved code addresses the inefficiencies and ensures that characters in s are found in the correct order within t.
