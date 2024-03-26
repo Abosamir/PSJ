@@ -1,0 +1,7 @@
+my solution is based on the first error i got.
+
+my first solution was based mapping the letters from the string "s" to the string "t".
+
+this is right, but its part of the solution, because i should also map the letters from the reverse order i mean from t to s.
+
+having two maps = True. then the two strings are Isomorphic.
