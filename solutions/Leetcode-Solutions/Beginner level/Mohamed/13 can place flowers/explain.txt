@@ -1,0 +1,15 @@
+this problem consists of 2 major steps, the first step is to know what you can do with the edges and the second steps is to know what you can make for normal formula.
+to make a plant you must have this shape [0,0,0].
+having this structure means you can plant 1 flower in the middle.
+-----------------------------------------------------
+but in the edge if you have this shape [0,0]
+you can plant a flower in the first index.
+----------------------------------------------------
+my solution is based on:
+    1. add a zero at the begining and at the end
+    2. track the number of zeros and there we have two cases
+        1. we have for example 2 zeros and then we faced a 1 then we will make the counter "plant" equal to zero
+        2. we count until we reache to 3 zeros in a row, then the "plant" variable will not count again from zero, but from 1
+----------------------------------------------------
+your output is true only if you can plant more or equal to the variable normal
+
