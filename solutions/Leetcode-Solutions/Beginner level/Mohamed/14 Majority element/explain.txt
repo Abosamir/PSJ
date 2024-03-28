@@ -1,0 +1,3 @@
+my solution is very basic you just track the numbers in the dictionary and return the key that has the higher value
+--------------
+there is another solution that solved this problem in O(1) space and his idead is easy too, you can find it in "sol2.py"
