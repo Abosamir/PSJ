@@ -1,0 +1,2 @@
+this problem is straight forward in terms of the idea for me the code is just the tricky here.
+important note: you will return only if the greater elemnt is in right of the elemnt that we stand at.
