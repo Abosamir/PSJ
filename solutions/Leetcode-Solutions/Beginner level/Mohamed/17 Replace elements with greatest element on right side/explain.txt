@@ -1,0 +1,6 @@
+my solution in this problem has in the beginning a base solution for having a list of empty and one element list, beyond that the solution is as following
+    
+    1. reverse the given array 
+    2. take the first index as the greater element
+    3. for each step in the for loop we will compare the elemnt before the one we set to the greater variable with the element at index i-1
+    4. the for loop will carry on, until we reach the end then we will add -1 to it. 

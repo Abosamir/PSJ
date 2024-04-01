@@ -1,14 +1,14 @@
 def replaceElements(self, arr: list[int]) -> list[int]:
-    if not arr:
-        return []
+    
+    arr = list(reversed(arr))
 
-    max_right = -1
-    n = len(arr)
-
-    for i in range(n - 1, -1, -1):
-        temp = arr[i]
-        arr[i] = max_right
-        max_right = max(max_right, temp)
-
-    return arr
-
+    max_right_arr = []
+    if not arr or len(arr) == 1:
+        return [-1]
+    
+    greater = arr[0]
+    for i in range(1,len(arr)):
+        greater = max(arr[i-1],greater)
+        max_right_arr.append(greater)
+    
+    return list(reversed(max_right_arr))+[-1]
