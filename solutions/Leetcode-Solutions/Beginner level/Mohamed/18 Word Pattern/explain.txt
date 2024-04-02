@@ -1,0 +1,3 @@
+this problem for me is very similart to a problem i solved in this sheet called "Isomorphic string" even i used a function from this problem.
+my solution is based on looking at the pattern from the prospective of word and in the reverse manner looking at the word from the prospective of the pattern.
+if both the 2 lines returning True, then the output is True, otherwise it will be False.
