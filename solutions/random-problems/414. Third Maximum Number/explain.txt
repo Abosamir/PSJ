@@ -1,0 +1,2 @@
+this problem is easy, you just need to sort the unique element and access whatever you want
+first get the unique then sort it.
