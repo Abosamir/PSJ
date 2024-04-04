@@ -1,0 +1,1 @@
+straight forward problem, where we make a for loop and for each word in the words we ask the question about the string s
