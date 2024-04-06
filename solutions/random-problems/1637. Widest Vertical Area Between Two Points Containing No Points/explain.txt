@@ -1,0 +1,3 @@
+this problem is easy but the hard part came in understant the description of the problem.
+the problem basicily want you to find the widest horizontal distance between the points you have.
+my solution is based on first, sort the points and then track the distance between the points then return the biggest one
