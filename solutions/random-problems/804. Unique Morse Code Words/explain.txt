@@ -1,0 +1,1 @@
+the idea here is, map each letter to the equalivent symbol and concatenate each symbol and you will get the final symbols that you want.
