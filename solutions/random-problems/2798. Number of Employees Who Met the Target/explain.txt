@@ -1,0 +1,1 @@
+straightforward problem, i made a loop through the hours list and if the hour exceed or equal to the target i will count it.
