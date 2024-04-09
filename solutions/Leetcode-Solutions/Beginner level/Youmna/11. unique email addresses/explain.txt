@@ -1,0 +1,2 @@
+in this problem i want to get different  receive mails so i use `set` to get length ->output , then must be define local and domain we kown it from '@'.
+`local` everything after the first '+' will be ignored so i split the email based on '+' and get the first index then replace '.' to no space ''

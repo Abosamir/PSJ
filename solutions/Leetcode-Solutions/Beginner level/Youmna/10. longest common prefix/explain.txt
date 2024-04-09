@@ -1,0 +1,6 @@
+    * It first checks if the input list strs is empty. If it is, it returns an empty string.
+    * It iterates through each character of the first string (strs[0]) using enumerate.
+    * Inside this loop, it iterates through all other strings in the list (starting from the second one).
+    * It compares the current character from the first string with the corresponding character in each other string.
+    * If any character doesn't match or if the index i exceeds the length of any other string, it returns the substring of the first string up to the index i. This substring represents the longest common prefix found so far.
+    * If the loop completes without returning, it means the entire first string is the common prefix, so it returns the first string itself.
