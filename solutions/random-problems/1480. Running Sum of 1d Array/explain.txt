@@ -1,0 +1,1 @@
+my solution for this problem is based on loop throught the whole list and for each element in this list i added it to the previous element. and then this element will be appended to the array of results.
