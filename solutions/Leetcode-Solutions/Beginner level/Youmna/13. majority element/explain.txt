@@ -1,0 +1,1 @@
+The Solution class provides a method majorityElement to find the majority element in a list of integers. The approach involves sorting the list, then returning the element at index n//2, where n is the length of the list. This assumes that the majority element always exists in the list.
