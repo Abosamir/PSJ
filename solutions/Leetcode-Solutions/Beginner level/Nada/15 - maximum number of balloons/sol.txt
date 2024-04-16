@@ -1,0 +1,2 @@
+Here the important thing is that the counter function takes a string and forms a dictionary containing the character and the number of occurences , 
+we created this for the balloon and the count text and made a maximum number as our threshold  , then a  for loop for each letter in  balloon we find the minimum number of occurences between the threshold and the counttext// balloon and return the minimum of them all as this is the bottle neck .

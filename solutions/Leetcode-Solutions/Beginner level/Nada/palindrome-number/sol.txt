@@ -1,1 +1,0 @@
-Here, the straightforward cases involve checking if the string starts with a negative sign. If it does, the function immediately returns False. Otherwise, it proceeds to reverse the string using `[::-1]` and compares it with the original. If they match, it returns True; otherwise, it returns False.

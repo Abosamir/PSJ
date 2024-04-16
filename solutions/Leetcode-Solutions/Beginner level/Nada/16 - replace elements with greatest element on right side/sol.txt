@@ -1,0 +1,1 @@
+It iterates through the list in reverse order and replaces each element with the maximum value to its right (including itself if it’s the rightmost element). The rightmost element remains as -1. The modified list is then returned. Essentially, it transforms the input list by replacing each element with the maximum value to its right.
