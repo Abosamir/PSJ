@@ -1,0 +1,5 @@
+It achieves this by first counting the frequency of each number in nums using a dictionary count. Then, it organizes the numbers based on their frequencies into a list of lists freq, where each sublist at index i holds numbers with frequency i. Finally, it iterates through freq from highest frequency to lowest, appending numbers to the result list res until its length reaches k, at which point it returns res. This algorithm efficiently finds the top k frequent elements by organizing numbers based on their frequencies.
+
+
+
+
