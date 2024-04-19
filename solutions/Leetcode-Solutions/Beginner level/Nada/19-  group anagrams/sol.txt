@@ -1,0 +1,4 @@
+It initializes an empty defaultdict named res, where the default value for each key is an empty list. Then, it iterates through each string (s) in the input list. For each string, it creates a count list (count) representing the frequency of each lowercase letter in the alphabet. It converts this count list into a tuple and uses it as the key in the res defaultdict. Each anagram group shares the same tuple key, allowing them to be grouped together. Finally, it returns a list of lists containing the grouped anagrams, accessed through res.values(). 
+
+
+
