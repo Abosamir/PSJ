@@ -1,0 +1,4 @@
+The method efficiently computes the product of all elements in nums except for the element at the current index. It initializes a result list res with all elements set to 1. Then, it iterates through nums, updating the res list with prefix products up to the current index. After that, it iterates backward through nums, updating the res list with postfix products from the current index. Finally, it returns the res list, which contains the product of all elements except the one at each index. This algorithm leverages prefix and postfix products to achieve a linear time complexity of O(n) 
+
+
+
