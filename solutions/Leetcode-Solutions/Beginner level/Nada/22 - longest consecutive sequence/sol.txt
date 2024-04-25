@@ -1,0 +1,3 @@
+First, it converts the list into a set numSet for faster lookup. Then, it iterates through each number in the list. For each number n, it checks if n - 1 is not in numSet, which means n is the start of a potential consecutive sequence. It then iterates forward from n, incrementing a length counter until it encounters a number not in numSet, updating the longest variable with the maximum length found. Finally, it returns the longest length of consecutive numbers found.
+
+
