@@ -1,0 +1,1 @@
+It initializes a pointer l at the beginning of the list. Then, it iterates through the list with a pointer r, swapping non-zero elements with the element at index l and incrementing l. This effectively moves all non-zero elements to the beginning of the list. Finally, it returns the modified nums list.
